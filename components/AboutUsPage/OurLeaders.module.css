@@ -1,0 +1,130 @@
+.container{
+margin-bottom: 150px;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+    
+}
+
+.container h3{
+    text-align: center;
+font: normal normal 600 40px Segoe UI;
+letter-spacing: 0px;
+color: #FFB403;
+opacity: 1;
+}
+.container h4{
+    text-align: center;
+font: normal normal 600 25px Segoe UI;
+letter-spacing: 0px;
+color: #FFB403;
+opacity: 1;
+margin: 0 250px;
+}
+.container h5{
+    text-align: center;
+    font: normal normal 600 22px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB403;
+    opacity: 1;
+    margin: 10px 0;
+}
+.container h6{
+    text-align: center;
+    font: normal normal 600 20px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB403;
+    opacity: 1;
+    margin: 10px 0;
+}
+
+.container p{
+    text-align: left;
+font: normal normal 600 18px Segoe UI;
+letter-spacing: 0px;
+color: #FFB403;
+opacity: 1;
+/* margin: 0px 30px; */
+}
+
+.container img{
+margin: auto;
+width: 300px;
+margin-top: 20px;
+}
+
+.container span{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 20px 20px;
+padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+    .container div{
+        width: 700px;
+    }
+
+    .container img{
+        width: 250px;
+    }
+
+    .container h4{
+        margin: 0 150px;
+    }
+    .container p{
+        font: 17px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container div{
+        width: 500px;
+    }
+
+    .container img{
+        width: 200px;
+    }
+
+    .container h4{
+        margin: 0 50px;
+    }
+    .container p{
+        font: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container div{
+        flex-direction: column;
+        width: 400px;
+    }
+    .container img{
+        width: 250px;
+    }
+    .container p{
+        font: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container div{
+        width: 270px;
+    }
+    .container img{
+        width: 230px;
+    }
+    /* .container p{
+        font: 10px;
+    } */
+}

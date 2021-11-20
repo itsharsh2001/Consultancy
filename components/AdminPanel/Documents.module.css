@@ -1,0 +1,234 @@
+.bigcard{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFC43B;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.submit{
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.left{
+    text-align: left;
+    font: normal normal 600 25px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    flex: 0.9;
+    height: 200px;
+    margin-left: 40px;
+    padding: 80px 0;
+}
+
+.yellowcontainer{
+    background: #FFC43B 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 75%;
+    margin: auto;
+    margin: 60px auto;
+}
+
+.yellowcontainer span{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;    
+    opacity: 1;
+    width: 85%;
+    margin: 40px auto;
+}
+
+.yellowcontainer span select{
+    flex: 1.4;
+    text-align: left;
+    font: normal normal 400 20px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 20px;
+    padding-left: 14px;
+    height: 41px;
+    margin-top: 9px;
+    margin-right: 10px;
+    outline:none;
+    border:2px solid #FFC43B;
+}
+
+.yellowcontainer span div{
+    flex: 0.1;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    align-self: center;
+}
+
+.yellowcontainer span div input{
+    background-color: #FFffff;
+    /* box-shadow: inset 0px 1px 2px #00000029; */
+    /* border: 1px solid #FFB300; */
+    letter-spacing: 0px;
+    color: #FFB300;
+    opacity: 1;
+    /* transition-property: all; */
+    /* transition-duration: 0.5s; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.yellowcontainer span div button {
+    width: 180px;
+    margin-left: 19px;
+    background: #FFB300 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 1px 2px #00000029;
+    border: 1px solid #FFB300;
+    /* border-radius: 10px; */
+    opacity: 1;
+    /* text-align: left; */
+    /* font: normal normal 600 36px/48px Segoe UI; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.5s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.yellowcontainer span div button:active,
+.yellowcontainer span div button:hover{
+    color: #FFB300;
+    background-color: #FFFFFF;
+}
+
+.plus{
+    text-align: right !important;
+    /* padding-right: 20px;  */
+    /* padding-top: 5px !important; */
+    padding: 5px 20px !important;
+    flex: 0.2 !important;
+
+}
+
+
+@media (max-width: 1160px) {
+    .left{
+        font-size: 20px;
+        height: 150px;
+        padding: 60px 0;
+    }
+    .yellowcontainer span p{
+        font-size: 20px;
+        padding-top: 13px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .yellowcontainer span p{
+        font-size: 16px;
+        padding-top: 16px;
+    }
+}
+
+@media(max-width: 976px) {
+    .yellowcontainer span{
+        flex-direction: column;
+        /* align-items: baseline; */
+    }
+    .yellowcontainer span div{
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .left{
+        font-size: 17px;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .yellowcontainer span p{
+        font-size: 13px;
+        padding-top: 18px;
+    }
+}
+
+@media(max-width:836px){
+   
+    .yellowcontainer{
+        width: 74vw;
+    }
+}
+
+@media (max-width: 720px){
+    .yellowcontainer span p{
+        font-size: 11px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .yellowcontainer span{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+    .plus{
+        /* padding: 0 !important; */
+        margin: auto !important;
+    }
+    .yellowcontainer span p{
+        font-size: 15px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 510px) {
+    .left{
+        height: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:485px){
+    .yellowcontainer span div input{
+        width: 173px;
+    }
+    .yellowcontainer span div{
+        margin: auto;
+    }
+    .yellowcontainer span div button{
+        margin-left: 0px;
+        margin-bottom: 8px;
+        width:55vw;
+    }
+    .yellowcontainer span p{
+        margin: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .left{
+        flex: 1;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 336px) {
+    .left{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

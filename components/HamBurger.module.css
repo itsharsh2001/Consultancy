@@ -1,0 +1,24 @@
+.hamburger{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    display:none;
+}
+
+@media(max-width:1358px){
+    .hamburger{
+    display: flex;
+        padding-top: 18px;
+    }
+    .burger{
+        margin-right: 22px;
+    }
+    .menuIcon{
+        padding-right: 1rem;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top:-12px;
+    }
+
+}

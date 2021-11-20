@@ -1,0 +1,9 @@
+.menu hr{
+    margin-left: -120px;
+}
+
+@media (max-width:437px) {
+    .menu li{
+        margin-left: -60px;
+    }
+}

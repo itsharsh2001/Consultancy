@@ -1,0 +1,25 @@
+.image{
+    height: 140px;
+    width: 150px;
+    border-radius:50%;
+}
+
+
+@media(max-width:1046px){
+    .image{
+        height: 98px;
+        width: 106px;
+    }
+}
+
+@media(max-width:326px){
+
+    .image{
+        height: 82px;
+        width: 87px;
+    }
+
+}
+
+
+

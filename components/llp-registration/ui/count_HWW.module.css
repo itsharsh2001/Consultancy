@@ -1,0 +1,32 @@
+.container{
+    width:72px;
+    height:72px;
+    border-radius: 50%;
+    background-color: #FFB403;
+    margin:auto;
+}
+
+.containerP{
+    text-align:center;
+    display: flex;
+    padding-top: 5px;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-family:Segoe UI;
+    font-size: 45px;
+}
+
+@media(max-width:456px){
+    .container{
+        width:40px;
+        height:40px;
+        margin-bottom: 32px;
+    }
+
+    .containerP{
+        font-size:20px;
+        padding-top: 8px;
+    }
+}
+

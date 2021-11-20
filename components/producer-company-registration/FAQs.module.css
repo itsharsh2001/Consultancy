@@ -1,0 +1,54 @@
+.container{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.containerh2{
+    margin: 0;
+}
+
+.container hr{
+    width: 240px;
+    border: 2px solid #FFB403;
+    background-color: #FFB403;
+    border-radius: 12px;
+}
+
+.body{
+    margin-bottom: 40px;
+}
+
+.containerh2{
+    font-family: Segoe UI;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+@media(max-width: 853px){
+    .containerh2{
+        font-size: 25px;
+    }
+
+    .container hr{
+        width: 160px;
+    }
+}
+
+@media(max-width: 809px){
+    .container{
+        margin-top: -30px;
+    }
+}
+
+@media(max-width: 632px){
+    .containerh2{
+        font-size: 22px;
+    }
+
+    .container hr{
+        width: 140px;
+    }
+}
+

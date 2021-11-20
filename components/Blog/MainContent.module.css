@@ -1,0 +1,232 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+.searchField{
+    display: flex;
+    align-items: center;
+}
+
+.searchField span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-top: 3px solid #FFC43B;
+    border-bottom: 3px solid #FFC43B;
+    border-right: 3px solid #FFC43B;
+    border-left: 3px solid #FFC43B;
+    background-color: #FFB403;
+    opacity: 2;
+    margin-left: -20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.searchField span:hover,
+.searchField span:active{
+    background-color: #FFC43B
+}
+
+.container h3{
+    text-align: center;
+    font: normal normal 600 46px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB403;
+    opacity: 1;
+}
+
+.container input{
+    border: 3px solid #FFC43B;
+    border-radius: 77px;
+    opacity: 1;
+    width: 500px;
+    height: 50px;
+    outline: none;
+
+    text-align: left;
+    font: normal normal 600 20px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB403;
+    opacity: 1;
+    padding-left: 20px;
+}
+
+.imageCard span{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #FFB403;
+    opacity: 1;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.imageCard img{
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 300px;
+}
+
+.imageCard p{
+    text-align: left;
+    font: normal normal 600 19px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB403;
+    opacity: 1;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+.imageCard button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #FFC02D;
+    opacity: 1;
+
+    text-align: left;
+    font: normal normal normal 25px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFB403;
+    opacity: 1;
+    margin-left: 30px;
+    padding: 8px 35px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.imageCard button:hover,
+.imageCard button:active{
+    background-color: #FFC43B;
+    color: #FFFFFF;
+}
+
+.button{
+    background: #FFC43B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border: none;
+    text-align: left;
+    font: normal normal 600 25px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 8px 225px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.button:hover,
+.button:active{
+    color: #FFB403;
+    background-color: #FFFFFF;
+}
+
+@media (max-width:900px) {
+    .container{
+        width: 700px;
+    }
+    .container h3{
+        font-size: 35px;
+    }
+    .container input{
+        width: 350px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .searchField span{
+        height: 40px;
+        width: 40px;
+    }
+    .imageCard p{
+        font-size: 16px;
+    }
+    .imageCard button{
+        font-size: 20px;
+    }
+    .button{
+        font-size: 20px;
+        padding: 6px 165px;
+    }
+}
+
+@media (max-width:730px) {
+    .imageCard span{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 500px;
+    }
+
+    .container h3{
+        font-size: 30px;
+    }
+    .container input{
+        width: 300px;
+    }
+    .imageCard p{
+        margin-top: 15px;
+    }
+    .imageCard button{
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width:530px) {
+    .container{
+        width: 350px;
+    }
+    .container h3{
+        font-size: 25px;
+    }
+    .container input{
+        width: 240px;
+    }
+    .imageCard img{
+        width: 250px;
+    }
+    .imageCard p{
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .imageCard button{
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        padding: 6px 25px;
+    }
+    .button{
+        font-size: 20px;
+        padding: 6px 25px;
+    }
+}
+
+@media (max-width:430px){
+    .container{
+        width: 270px;
+    }
+    .container h3{
+        font-size: 20px;
+    }
+    .container input{
+        width: 160px;
+    }
+    .imageCard img{
+        width: 200px;
+    }
+}

@@ -1,0 +1,203 @@
+.slider{
+    margin: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+.slider h2 {
+  text-align: center;
+  font: normal normal 600 36px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-left:10px;
+  margin-right:10px;
+  opacity: 1;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 411px 411px 411px;
+    justify-content: center;
+}
+
+.firstButton{
+    margin-top: 76px;
+}
+
+.secondButton{
+    margin-top: 20px;
+}
+
+.thirdButton{
+    margin-top: 93px;
+}
+
+.fourthButton{
+    margin-top: 93px;
+}
+
+.fifthButton{
+    margin-top: 93px;
+}
+
+.sixthButton{
+    margin-top: 111px;
+}
+
+.cards h3{
+text-align: center;
+font: normal normal bold 25px Segoe UI;
+font-weight: 500;
+letter-spacing: 0px;
+color: #FAFAFA;
+opacity: 1;
+}
+
+.cards p{
+    text-align: left;
+font: normal normal 600 14px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+padding: 0 5px;
+}
+
+.left{
+    transform: translateY(-3.3px) rotate(180deg);
+}
+
+.price{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: -2px 4px 6px #00000029;
+border-radius: 15px;
+opacity: 1;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.price p{
+    text-align: left;
+font: normal normal 600 17px Segoe UI;
+letter-spacing: 0px;
+color: #FFB403;
+opacity: 1;
+padding-left: 10px;
+}
+
+.price div{
+    background: #8CD809 0% 0% no-repeat padding-box;
+box-shadow: -3px 4px 6px #00000029;
+border-radius: 0px 15px 15px 0px;
+opacity: 1;
+padding: 16px 10px;
+}
+
+.price div a{
+    text-align: left;
+font: normal normal 600 18px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+cursor: pointer;
+transition-property: all;
+transition-duration: 0.5s;
+}
+
+.price div a:hover{
+    color: #d8d7d7;
+}
+
+.price div a:active{
+    color: #8CD809;
+    background: #fff;
+box-shadow: -3px 4px 6px #00000029;
+border-radius: 0px 15px 15px 0px;
+padding: 16px 10px;
+margin: -16px -10px;
+}
+
+@media(max-width: 1228px){
+    .cards{
+        grid-template-columns: 400px 400px;
+    }
+    .slider h2{
+        font-size:32px;
+    }
+}
+
+@media(max-width: 808px){
+    .cards{
+        grid-template-columns: 400px;
+    }
+    .slider h2{
+        font-size:26px;
+    }
+}
+
+@media(max-width:520px){
+    .firstButton{
+        margin-top: 23px;
+    }
+
+    .thirdButton{
+        margin-top:93px;
+    }
+
+    .fourthButton{
+        margin-top:75px;
+    }
+    
+    .sixthButton{
+        margin-top: 92px;
+    }
+  }
+
+@media(max-width: 490px){
+    .slider h2{
+        font-size:20px;
+    }
+}
+
+@media(max-width: 336px){
+    .slider h2{
+        font-size:18px;
+    }
+}
+
+@media(max-width: 356px){
+    .cards{
+        grid-template-columns: 342px;
+    }
+    .cards h3{
+    font-size: 20px;
+    }
+    .price p{
+        font-size: 10px;
+    }
+    .price div a{
+    font-size: 16px;
+    }
+    .firstButton{
+        margin-top: 55px;
+    }
+
+    .secondButton{
+        margin-top:25px;
+    }
+
+    .thirdButton{
+        margin-top:118px;
+    }
+
+    .fourthButton{
+        margin-top:118px;
+    }
+
+    .fifthButton{
+        margin-top:118px;
+    }
+    
+    .sixthButton{
+        margin-top: 136px;
+    }
+}

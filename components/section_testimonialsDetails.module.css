@@ -1,0 +1,132 @@
+.formateQuoteIcon{
+    transform:rotate(180deg);
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;;
+}
+
+
+.formateQuoteIcon2div{
+    text-align:right;
+}
+
+.formateQuoteIcon2{
+    color:white;
+    position: relative;
+    right: 10px;
+    top:-40px
+}
+
+
+.testimonialtext{
+    font-family:Segoe UI;
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    font-size:20px;
+    padding-bottom: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.testimonialImage{
+    clip-path: circle();
+    display: block;
+    width: 68px;
+    height: 68px;
+    margin:auto;
+}
+
+@media(max-width:852px){
+    .testimonialtext{
+        font-size:19px;
+    }
+    .testimonialImage{
+        width:58px;
+        height: 58px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width:665px){
+    .testimonialtext{
+        font-size:16px;
+    }
+    .testimonialImage{
+        position: relative;
+        top: -20px;
+        margin-bottom:0px;
+    }
+
+}
+
+/* @media(max-width:531px){
+    
+} */
+
+@media(max-width:531px){
+    .testimonialtext{
+        font-size:12px;
+        margin-left: 2px;
+        margin-right: 2px;
+        position: relative;
+        top:-18px;
+    }
+    .testimonialImage{
+        width:40px;
+        height: 40px;
+        top:-20px;
+    }
+    .formateQuoteIcon2{
+        top:-45px;
+        right:5px;
+    }
+    .formateQuoteIcon{
+        margin-top: 2px;
+        margin-left: 3px;
+
+    }
+}
+
+@media(max-width:477px){
+    .testimonialtext{
+        top:-32px;
+    }
+    .testimonialImage{
+        width:40px;
+        height: 40px;
+        top:-30px;
+    }
+    .formateQuoteIcon2{
+        top:-55px;
+        right:5px;
+    }
+    .formateQuoteIcon{
+        margin-top: 0px;
+        margin-left: 3px;
+
+    }
+}
+
+@media(max-width:390px){
+    .formateQuoteIcon2{
+        top:-75px;
+        right:5px;
+    }
+    .formateQuoteIcon{
+        margin-top: -2px;
+        margin-left: 3px;
+
+    }
+}
+/* 
+@media(max-width:315px){
+    .formateQuoteIcon2div{
+        display:none;
+    }
+    .testimonialtext{
+        font-size:11px;
+    }
+} */
+

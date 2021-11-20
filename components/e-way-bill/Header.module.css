@@ -1,0 +1,470 @@
+.headingh1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.imgMobile{
+    display:none;
+}
+
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.headerBackground{
+    background: url('../../public/Fintaximages/registrationandfilling/e-way-bill.png');
+    padding-bottom: 180px;
+    background-size: cover;
+}
+
+.form{
+    background-color: white;
+    position: relative;
+    left: 1007px;
+    top: 93px;
+    width: 425px;
+    border-radius: 6px;
+}
+
+.faq{
+    margin-bottom: 20px;
+}
+
+
+.planName{
+    height: 35px;
+    margin-left: 100px;
+    width: 70%;
+    border: 1px solid #FFB403;
+    color: black;
+    font-weight: 500;
+    padding-left: 5px;
+    outline:none;
+}
+
+
+.input{
+    height: 34px;
+    width: 296px;
+    color: black;
+    font-weight: 500;
+    margin-right: 18px;
+    outline: none;
+    color: #000000;
+    margin: 7px;
+    border: 1px solid #FFB403;
+    padding-left: 5px;
+}
+
+.inputLable{
+    font-weight: 600;
+    font-size: 18px; 
+    margin-left: 18px;
+    margin-right: 14px;
+}
+
+.inputLable3{
+    margin-right: 10px;
+}
+
+.inputLable2{
+    margin-right: 19px;
+}
+
+
+
+.formInputs{
+    display:flex;
+    flex-direction:column;
+}
+
+.formh2heading{
+    font-family: 'Segoe UI';
+    padding-top: 17px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.forminsidep{
+    text-align: center;
+    color: #FFB403;
+    font-weight: 500;
+}
+
+.query{
+    padding-bottom: 26px;
+}
+
+.formheading{
+    margin-left: 10px;
+    background: #FFB403;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 9px;
+    padding-left: 129px;
+    padding-right: 129px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    left: 1000px;
+    top: 93px;
+
+}
+
+.mobileVersionQuery{
+    display: none;
+}
+
+.buttonForm{
+    font-family: 'Segoe UI';
+    width:343px;
+    display: block;
+    margin:auto;
+    background: #FFB403;
+    outline: none;
+    border:none;
+    border-radius: 8px;
+    padding: 9px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: 13px;
+    color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    font-size: 15px;
+    transition-duration: 0.5s;
+}
+
+.buttonForm:hover,
+.buttonForm:active{
+    color: #FFB403;
+    background: white;
+}
+
+.headingp{
+    text-align: center;
+    margin-left: 236px;
+    margin-right: 236px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headingp2{
+    margin-right: 322px;
+    margin-left: 363px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+@media(max-width:1472px){
+    .form{
+        left: 900px;
+    }
+    .formheading{
+        left: 890px;
+    }
+}
+
+@media(max-width:1382px){
+    .form{
+        left: 800px;
+        top: 95px;
+    }
+    .formheading{
+        left: 790px;
+    }
+}
+
+@media(max-width:1287px){
+    
+.imgMobile{
+    display:block;
+}
+
+.imagePart{
+    display:none;
+}
+
+.mi{
+    width:100vw;
+    height:45vw;
+}
+
+.mobileVersionQuery{
+    display:block;
+}
+
+.headerBackground{
+    background:none;
+    display:flex;
+    padding-bottom: 20px;
+    flex-direction:column;
+}
+
+.form{
+    left: 0px;
+    top: 0px;
+    box-shadow: 1px 3px 4px 3px #00000029;
+    display: block;
+    margin: auto;
+}
+.formheading{
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin: 25px;
+    margin-right: 66px;
+    margin-left: 66px;
+    border-radius: 20px;
+}
+
+
+
+}
+
+@media(max-width:633px)
+{
+    .formheading{
+       font-size: 20px;
+       padding: 10px;
+    }
+    .form{
+        width: 70vw;
+    }
+    .input{
+        width: 50vw;
+    }
+    .buttonForm{
+        width:58vw;
+    }
+    
+}
+
+@media(max-width:575px){
+    .input{
+        width: 63vw;
+        margin-left: 19px;
+        margin-left: 20px;
+    }
+    .buttonForm{
+    width: 60vw;
+    margin-left: 25px;
+    }
+}
+
+@media(max-width:575px){
+    .input{
+        width: 66vw;
+        margin-left: 10px;
+    }
+    .buttonForm{
+        margin-left: 10px;
+        width: 66vw;
+        }
+
+        .inputLable{
+            margin-left: 10px;
+        }
+}
+
+@media(max-width:403px){
+    .input{
+        width: 67vw;
+        margin-left: 4px;
+        
+    }
+    .buttonForm{
+        width: 65vw;
+        margin-left: 4px;
+        }
+
+        .inputLable{
+            margin-left: 4px;
+        }
+}
+
+@media(max-width:539px){
+    .formheading{
+        font-size: 16px;
+        padding: 10px;
+     }
+}
+
+@media(max-width:462px){
+    .formheading{
+        font-size: 12px;
+        padding: 10px;
+     }
+}
+
+@media(max-width: 576px){
+    .formh2heading{
+        font-size: 20px;
+    }
+    .forminsidep{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 534px){
+    .formh2heading{
+        font-size: 17px;
+    }
+    .forminsidep{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 467px){
+    .formh2heading{
+        font-size: 15px;
+    }
+    .forminsidep{
+        font-size: 11px;
+    }
+    .form{
+        width: 80vw;
+    }
+    .input{
+        width: 70vw;
+    }
+    .buttonForm{
+        margin-left: 20px;
+        }
+
+        .inputLable{
+            margin-left: 10px;
+        }
+}
+
+@media(max-width: 404px){
+    .input{
+        width: 70vw;
+        margin-left: 12px;
+    }
+}
+
+
+@media(max-width: 1281px){
+    .headingp{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .headingh1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .headingp2{
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 1011px){
+    .headingp{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 16px;
+    }
+
+    .headingh1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .headingp2{
+        margin-right: 100px;
+        margin-left: 100px;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 908px){
+    .headingp{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .headingp2{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+
+@media(max-width: 832px){
+    .headingp{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .headingp2{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .headingh1{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 832px){
+    .headingp{
+        font-size: 12px;
+    }
+
+    .headingp2{
+        font-size: 12px;
+    }
+    .headingh1{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575px){
+    .planName{
+        height: 35px;
+        margin-left: 10px;
+        width: 94%;
+        border: 1px solid #FFB403;
+        color: black;
+        font-weight: 500;
+        padding-left: 5px;
+        outline:none;
+    }
+}
+
+@media(max-width: 502px){
+    .headingp{
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: Left;
+    }
+
+    .headingp2{
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: Left;
+    }
+}
+
+@media(max-width: 467px){
+    .planName{
+        width:88%;
+        margin-left: 10px;
+    }
+}

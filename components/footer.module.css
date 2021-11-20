@@ -1,0 +1,538 @@
+.details{
+    display: flex;
+    background: #FFC43B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    align-items: center;
+    height:100px;
+    justify-content: center;
+}
+
+.footerItems{
+    font-size: 20px;
+    color: #707070;
+    font-family: Segoe UI;
+    font-weight: 700;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.footerItems:hover{
+    color:#FFC43B;
+    font-weight: bold;
+}
+
+.clicker_directToTopIcon{
+    transform: rotate(180deg);
+    color: #FFC745
+}
+
+.clicker_directToTop{
+    align-self: flex-end;
+    margin-left: 12px;
+}
+
+.supportEmail{
+    font-family: Segoe UI;
+    color: white;
+    font-weight: 400;
+    padding-left: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content:center;
+    padding-bottom:20px;
+}
+
+.formFooterInput{
+    width: 75%;
+    margin-left: 28px;
+    height: 28px;
+    font-size: 15px;
+    padding-left: 12px;
+    border-radius: 7px;
+    color: #8C8C8C;
+    background: #F2F2F2;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin-bottom: 12px;
+    box-shadow: inset 0px 3px 4px #00000029, 0px 3px 2px #00000029;
+}
+
+
+
+.formFooterButton{
+    width: 80%;
+    margin-left: 28px;
+    height: 28px;
+    background: #FFC745 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    text-align: center;
+    color:white;
+    font-family: Segoe UI;
+    border-radius: 7px;
+    font-size: 15px;
+    border:none;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.formFooterButton:active,
+.formFooterButton:hover{
+    color: #FFC43B;
+    background: white;
+}
+
+.formFooterText{
+    color: #707070;
+    font-weight: 100;
+    font: normal normal normal 16px/31px Rod;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    opacity: 0.9;
+}
+
+.footer_copyright{
+    background-color: #8AD508;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_copyrightText{
+    color:white;
+    font-family: Segoe UI;
+    font-size:20px;
+    font-weight:400;
+}
+
+.footer_copyrightIcon{
+    color:white;
+    position: relative;
+    top: 2px;
+}
+
+.footerFormDesign{
+    box-shadow: 0px 3px 6px #00000029;
+    border: 3px solid #FFC745;
+    border-radius: 10px;
+    width: 300px;
+    height: 190px;
+    margin-top: 22px;
+}
+
+.arrowForwardIcon{
+    color:#FFC745;
+    position:relative;
+    top:2px;
+}
+
+
+
+.popularServicesText{
+    font-family: Segoe UI;
+    color: #707070;
+    font-size:25px;
+    font-weight:500;
+    padding-bottom: 26px;
+    padding-top: 45px;
+    padding-left: 19px;
+}
+
+
+
+.footerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.popularServices{
+    display: flex;
+    flex-direction: column;
+    flex:0.2;
+}
+
+.aboutUsServices{
+    flex:0.3;
+}
+
+.popularServices2{
+    flex:0.4;
+}
+
+.connectWithUstext{
+    font-family: Segoe UI;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.numberDetails{
+   font-family:  Segoe UI;
+   font-weight: 500;
+   color:white;
+   font-size:17px;
+}
+
+
+.phoneIcon{
+    padding-top:5px;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.phoneIcon:active,
+.phoneIcon:hover{
+    color: #8AD508;
+}
+
+
+.number{
+    display: flex;
+    flex:0.4;
+    align-items: center;
+}
+
+.message{
+    display:flex;
+    flex:0.4;
+    align-items: center;
+}
+
+.numberDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.connectWithUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media(max-width:1204px){
+
+    
+    .footer_copyrightText{
+        font-size: 18px;
+    }
+
+.footerLinks{
+    display:grid;
+    grid-template-columns: 600px 320px;
+    margin-left: 147px;
+    
+}
+
+
+.numberDetailstext{
+    width:233px;
+}
+
+.supportEmail{
+    width:233px;
+}
+
+.popularServices{
+    flex:0;
+}
+
+.aboutUsServices{
+    flex:0;
+}
+
+.popularServices2{
+    flex:0;
+}
+
+
+.clicker_directToTop{
+    display:none;
+}
+
+}
+
+
+@media(max-width:1066px){
+    .footerLinks{
+        grid-template-columns: 500px 320px;
+        
+    }
+}
+
+@media(max-width:955px){
+    .footerLinks{
+        grid-template-columns: 500px 220px;
+        margin-left: 0px;
+        
+    }
+}
+
+@media(max-width:746px){
+    .footerLinks{
+        display:flex;
+        flex-direction:column;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:974px)
+{
+    .footer_copyrightText{
+        font-size: 16px;
+    }
+}
+@media(max-width:956px){
+
+   
+
+
+    .number{
+        flex:0.5;
+    }
+    .message{
+        flex:0.5;
+    }
+    .details{
+        justify-content:center;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/* @media(max-width:860px){
+    .socialIcons{
+        width: 290px;
+    }
+} */
+
+@media(max-width:848px){
+    .footer_copyrightText{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:790px){
+    .footer_copyright{
+        padding: 12px;
+
+    }
+}
+
+@media(max-width:790px){
+    .footer_copyrightIcon{
+        position: relative;
+        top:-7px;
+    }
+}
+
+@media(max-width:782px){
+
+.details{
+display: flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+padding-bottom: 15px;
+}
+.number{
+    padding-top: 12px;
+}
+.connectWithUs{
+    padding-top: 30px;
+}
+
+
+}
+
+
+@media(max-width:558px){
+    
+    .footerItems{
+        font-size: 16px;
+    }
+    .arrowForwardIcon{
+        top:4px;
+    }
+    .popularServicesText{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:597px){
+    
+    .footerLinks{
+        margin-left: 51px;
+    }
+
+}
+
+@media screen and (min-device-width: 505px) and (max-device-width: 563px){
+.number{
+    margin-top: 12px;
+}
+.connectWithUs{
+position: relative;
+bottom:78px;
+}
+}
+
+@media(max-width:505px){
+    .connectWithUs{
+        margin:0;
+        padding:0;
+        flex-direction:row;
+        }
+        .numberDetailstext{
+            font-size:14px;
+        }
+
+        .supportEmail{
+            font-size:16px;
+        }
+
+        .connectWithUstext{
+            padding-right: 25px;
+            font-size:16px;
+        }
+
+    .number{
+        margin-bottom: 12px;
+    }
+    .message{
+        margin-bottom: 12px;
+    }
+    .details{
+        padding-bottom:40px;
+        }
+}
+
+
+
+
+@media(max-width:738px){
+    .details{
+        padding-bottom: 157px;
+        justify-content:start;
+    }
+    .connectWithUs{
+        margin-left: 35px;
+    }
+}
+
+@media(max-width:462px){
+    .footer_copyrightIcon{
+        top: -5px;
+        right: 4px;
+    }
+    .footer_copyrightText{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:435px){
+    .footer_copyrightIcon{
+        top: -15px;
+    }
+    .footer_copyright{
+        height:80px;
+    }
+}
+
+@media(max-width:455px){
+    .footerLinks{
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:409px){
+    .number{
+        margin-bottom:6px;
+    }
+    .message{
+        margin-bottom: 6px;
+    }
+    .connectWithUs{
+        flex-direction:column;
+        }
+        .details{
+            padding-bottom: 172px;
+        }
+}
+
+@media(max-width:370px){
+    .footerFormDesign{
+        width: 80vw;
+        height: 190px;
+    }
+    .footerItems{
+        font-size: 14px;
+    }
+    .arrowForwardIcon{
+        top:5px;
+    }
+    .formFooterButton{
+        width:74%;
+    }
+}
+
+@media(max-width:296px){
+    .footerFormDesign{
+        width: 200px;
+        height: 190px;
+    }
+    .formFooterText{
+        font-size:12px;
+    }
+    .formFooterInput{
+        margin-left: 20px;
+    }
+    .formFooterButton{
+        margin-left: 20px;
+    }
+    .footer_copyrightIcon{
+        top: -12px;
+        right: 4px;
+    }
+}
+
+@media(max-width:310px){
+    .formFooterText{
+        font-size:11px;
+    }
+    .formFooterInput{
+        width:65vw;
+        margin-left: 18px;
+    }
+    .formFooterButton{
+        margin-left: 30px;
+    }
+    .footer_copyrightText{
+        font-size: 13px;
+    }
+
+    .footerFormDesign{
+        width: 80vw;
+        height: 190px;
+    }
+    .footerItems{
+        font-size: 14px;
+    }
+    .arrowForwardIcon{
+        top:5px;
+    }
+    .formFooterButton{
+        width:74%;
+    }
+}
+
+
+
+

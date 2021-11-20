@@ -1,0 +1,60 @@
+.featuredOnText{
+    text-align: center;
+}
+
+.featuredOnTexth2{
+    padding-top: 50px;
+    font-family: Segoe UI;
+    color: #FFB403;
+    font-size:28px;
+    padding-bottom: 5px;
+}
+
+.featuredOnTextp{
+    color: #231F20;
+    font-family: Segoe UI Historic;
+    font-size:26px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+
+@media(max-width:1046px){
+    .featuredOnTexth2{
+        font-size:24px;
+    }
+    .featuredOnTextp{
+        font-size:24px;
+    }
+}
+
+@media(max-width:648px){
+    .featuredOnTexth2{
+        font-size:22px;
+        padding-top:20px;
+    }
+    .featuredOnTextp{
+        font-size:22px;
+        padding-top:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+}
+
+@media(max-width:326px){
+    .featuredOnTexth2{
+        font-size:18px;
+    }
+    .featuredOnTextp{
+        font-size:18px;
+    }
+}
+
+@media(max-width:286px){
+    .featuredOnTexth2{
+        font-size:15px;
+    }
+    .featuredOnTextp{
+        font-size:15px;
+    }
+}

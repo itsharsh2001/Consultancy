@@ -1,0 +1,180 @@
+.container{
+    height:490px;
+    width:520px;
+    border:3px solid #FFB403;
+    margin: auto;
+    margin-bottom: 65px;
+    margin-top: 65px;
+    box-shadow: inset 2px 2px 2px #00000029, 0px 2px 2px #FFB300;
+    border-radius: 10px;
+}
+
+.clickHere{
+    color: blue;
+    cursor: pointer;
+}
+
+.validationError{
+    margin: 0;
+    margin-left: 76px;
+    font-family: Segoe UI;
+    font-size: 19px;
+    color: red;
+    font-weight: 400;
+}
+
+.login{
+   text-align: center;
+   color: #FFB300;
+   font-weight: 500;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.emailicon{
+    margin: 0px;
+    margin-left: 73px;
+    color: #FFC43B;
+    position: relative;
+    top: 28px;
+}
+
+.signUp{
+    text-align: center;
+    cursor: pointer;
+}
+
+.forgetPassword{
+    text-align: right;
+    color: #FFC43B;
+    margin-right: 75px;
+    cursor: pointer
+}
+
+.button{
+    display: block;
+    margin: auto;
+}
+
+.input{
+    border-bottom: 3px solid #FFB300;
+    border-top:none;
+    border-left: none;
+    margin-bottom: 3px;
+    border-right: none;
+    outline: none;
+    font-size: 20px;
+    padding-bottom: 9px;
+    display: block;
+    margin: auto;
+    width: 71%;
+    padding-left: 35px;
+}
+
+.emailP{
+    margin: 0px;
+    margin-left: 73px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #FFC43B;
+    margin-bottom: -3px;
+}
+
+.button{
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: inset 0px 1px 4px #00000029;
+    background: #FFB300;
+    outline:none;
+    border: 2px solid #FFB300;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.signUp{
+    color: #FFB300;
+    font-weight: 600;
+}
+
+@media(max-width:724px){
+    .container{
+        height:440px;
+        width:480px;
+    }
+
+    .button{
+        width: 69%;
+    }
+
+    .input{
+        width: 69%;
+    }
+
+    .login{
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+}
+
+@media(max-width:572px){
+    .validationError{
+        margin: 0;
+        margin-left: 76px;
+        font-family: Segoe UI;
+        font-size: 19px;
+        color: red;
+        font-weight: 500;
+    }
+
+    .container{
+        height:410px;
+        width:400px;
+    }
+    .button{
+        width: 83%;
+    }
+
+    .forgetPassword{
+        text-align: right;
+        color: #FFC43B;
+        margin-right: 30px;
+    }
+
+    .login{
+        margin-top: 10px;
+        margin-bottom: 30px;
+     }
+     .emailP{
+        margin-left: 30px;
+    }
+    .emailicon{
+        margin-left: 30px;
+    }
+    .input{
+        width: 83%;
+    }
+   
+    
+}
+
+@media(max-width:458px){
+    .validationError{
+        margin: 0;
+        margin-left: 76px;
+        font-family: Segoe UI;
+        font-size: 19px;
+        color: red;
+        font-weight: 500;
+    }
+
+    .container{
+        height:390px;
+        width:80vw;
+    }
+    .login{
+       font-size: 25px;
+       margin-bottom: 10px;
+     }
+}

@@ -1,0 +1,218 @@
+.testimonialShape{
+    background-color:#FFB403;
+    width: 480px;
+    height: 390px;
+    clip-path: polygon(0% 0%,100% 0%,100% 83%,50% 100%,0% 83%);
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.section_testimonialsContent{
+    padding-bottom: 3rem;
+    margin-top: -21px;
+}
+
+
+.section_testimonialicon{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#FFB403;
+}
+
+
+.section_testimonialp{
+    text-align: center;
+    font: normal normal bold 26px/49px Segoe UI;
+    color: #FFB403;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top: 0px;
+}
+
+.readAllTestimonialText{
+    align-items:center;
+}
+
+.section_testimonialh2{
+    text-align: center;
+    font: normal normal bold 26px/49px Segoe UI;
+    color: #FFB403;
+    margin-bottom:0px;
+    padding-top:30px;
+}
+
+.testimonialArea{
+    display: flex;
+    justify-content: center;
+}
+
+.rightArrow{
+    align-self: center;
+    position: relative;
+    left: 130px;
+}
+
+/* .rightArrowIcon:hover,
+.rightArrowIcon:active{
+    color: #FFB403;
+    background: white;
+}
+
+.leftArrowIcon:hover,
+.leftArrowIcon:active{
+    color: #FFB403;
+    background: white;
+} */
+
+.leftArrow{
+    align-self: center;
+    position: relative;
+    right: 130px;
+}
+
+.rightArrowIcon{
+    background-color:#FFB403;
+    padding:5px;
+    color:white;
+    outline:none;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.leftArrowIcon{
+    background-color:#FFB403;
+    padding:5px;
+    color:white;
+    outline:none;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+@media(max-width:967px){
+    .rightArrow{
+        left: 70px;
+    }
+    .leftArrow{
+        right: 70px;
+    }
+}
+
+@media(max-width:852px){
+    .testimonialShape{
+        width: 430px;
+        height: 360px;
+    }
+    .section_testimonialh2{
+        font-size:24px;
+    }
+    .section_testimonialp{
+        font-size:24px;
+    }
+}
+
+@media(max-width:812px){
+    .rightArrowMediaQuery{
+        display:none;
+    }
+}
+
+@media(max-width:665px){
+    .testimonialShape{
+        width: 380px;
+        height: 350px;
+    }
+    .section_testimonialh2{
+        font-size:22px;
+    }
+    .section_testimonialp{
+        font-size:22px;
+    }
+}
+
+@media(max-width:626px){
+    .rightArrow{
+        left: 20px;
+    }
+    .leftArrow{
+        right: 20px;
+    }
+}
+
+@media(max-width:531px){
+    .testimonialShape{
+        width: 300px;
+        height: 260px;
+    }
+    .rightArrow{
+        left: 35px;
+    }
+    .leftArrow{
+        right: 35px;
+    }
+    .section_testimonialh2{
+        font-size:23px;
+    }
+    .section_testimonialp{
+        font-size:18px;
+    }
+}
+
+@media(max-width:477px){
+    .testimonialShape{
+        width: 260px;
+        height: 240px;
+    }
+    .rightArrowIcon{
+        padding:2px;
+    }
+    .leftArrowIcon{
+        padding:2px;
+    }
+
+    .section_testimonialp{
+        font-size:16px;
+    }
+}
+
+@media(max-width:428px){
+    .leftArrow{
+        right: 15px;
+    }
+    .rightArrow{
+        left: 15px;
+    }
+}
+
+
+@media(max-width:390px){
+    .testimonialShape{
+        width: 230px;
+        height: 230px;
+    }
+    .rightArrowIcon{
+        padding:1px;
+    }
+    .leftArrowIcon{
+        padding:1px;
+    }
+    .leftArrow{
+        right: 6px;
+    }
+    .rightArrow{
+        left: 6px;
+    }
+    .section_testimonialh2{
+        font-size:20px;
+    }
+
+}
+
+@media(max-width:381px){
+    .section_testimonialp{
+        margin-left: 12px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,18 @@
+.text{
+text-align: center;
+padding-top: 90px;
+}
+
+
+.texth2{
+    margin:0;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.text hr{
+width:260px;
+border: 2px solid #FFB403;
+background-color: #FFB403;
+border-radius: 12px;
+}

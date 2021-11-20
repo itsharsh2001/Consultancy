@@ -1,0 +1,230 @@
+.bigcard{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFC43B;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.bigcard ul{
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start!important; */
+    display: grid;
+    grid-template-columns: 60% 16% 24%;
+    width: 100%;
+    margin: 2px 2px;
+}
+
+.bigcard ul section{
+    /* width: 33.33%!important; */
+    display: flex;
+    flex-direction: column;
+}
+
+.bigcard ul section li{
+    width: 100% !important;
+    border-top: 2px solid #FFC43B;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-bottom: 3px solid #FFB300;
+    font: normal normal 600 14px Segoe UI;
+    cursor: pointer;
+    padding: 5px 0px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.bigcard ul section li:hover,
+.bigcard ul section li:active{
+    background-color: #ffffff!important;
+}
+
+.heading{
+    font-size: 18px!important;
+}
+
+.left{
+    text-align: left;
+    font: normal normal 600 25px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    flex: 0.9;
+    height: 200px;
+    margin-left: 40px;
+    padding: 80px 0;
+}
+
+.yellowcontainer{
+    background: #FFC43B 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 75%;
+    margin: auto;
+    margin: 60px auto;
+}
+
+.yellowcontainer span{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;    
+    opacity: 1;
+    width: 85%;
+    margin: 40px auto;
+}
+
+.yellowcontainer span p{
+    flex: 0.5;
+    text-align: left;
+    font: normal normal 600 25px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+@media (max-width: 1160px) {
+    .bigcard ul section li{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 16px!important;
+    }
+    .left{
+        font-size: 20px;
+        height: 150px;
+        padding: 60px 0;
+    }
+    .yellowcontainer span p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .yellowcontainer span p{
+        font-size: 16px;
+    }
+    .bigcard ul section li{
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 14px!important;
+    }
+}
+@media (max-width:950px){
+    .bigcard ul section li{
+        border: none;
+        box-shadow:none;
+    }
+    .bigcard{
+        box-shadow: none;
+    }
+    .section .heading{
+        border: 2px solid #FFB300;
+        box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFC43B;
+    }
+}
+@media (max-width:900px) {
+    .responsiveBigCard{
+        margin: 0;
+        border:none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 885px) {
+    .bigcard ul{
+        grid-template-columns: 70% 14% 16%;
+    }
+}
+
+@media (max-width: 850px) {
+    .left{
+        font-size: 17px;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .yellowcontainer span p{
+        font-size: 13px;
+    }
+    .bigcard ul section li{
+        font-size: 10px;
+    }
+    .heading{
+        font-size: 12px!important;
+    }
+}
+
+@media (max-width: 720px){
+    .yellowcontainer span p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width:676px) {
+
+    .bigcard{
+        width: 90vw;
+        margin-left: -115px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    /* .container{
+        width: 100vw;
+    } */
+
+    .yellowcontainer span{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 15px;
+    }
+    .yellowcontainer span p{
+        font-size: 15px;
+    }
+    .bigcard{
+        margin:auto;
+        margin-left: -14vw;
+    }
+}
+
+@media (max-width: 510px) {
+    .left{
+        height: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .left{
+        flex: 1;
+        margin-right: 20px;
+    }
+    .bigcard{
+        margin-left: -12vw;
+    }
+}
+
+@media (max-width: 355px) {
+    .bigcard ul section li{
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 336px) {
+    .left{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .bigcard{
+        margin-left: -15vw;
+    }
+}
